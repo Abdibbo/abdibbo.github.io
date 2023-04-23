@@ -3,7 +3,7 @@ name: Generate Static Site
 on:
   push:
     branches:
-      - master 
+      - main 
 
 jobs:
   deploy:
@@ -29,7 +29,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-        #  external_repository: tingoyendaorg/tingoyendaorg.github.io
-          user_name: fahimscirex
-          user_email: fahimscirex@tutanota.com
+          user_name: abdibbo
+          user_email: anindoctg@gmail.com
           publish_branch: gh-pages
