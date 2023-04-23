@@ -1,0 +1,13 @@
+main:
+  - name: খোঁজ - দ্য সার্চ
+    url: '/search/'
+    weight: 5
+  - name: আর্কাইভ
+    url: '/archive/'
+    weight: 10
+  - name: বিভাগসমূহ
+    url: categories
+    weight: 15
+  - name: রিজিউমি
+    url: '/resume'
+    weight: 20
