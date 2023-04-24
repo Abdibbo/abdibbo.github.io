@@ -3,7 +3,7 @@ title: Anonymous Box
 subtitle: Send Me an Anonymous Message
 layout: page
 url: '/message/'
-description: Send an Anonymous Message to Fahim Montasir
+description: Send an Anonymous Message to Anindya Barua
 ---
 ![Anonymous Box](/img/messagebox.webp)
 {{< rawhtml >}}
